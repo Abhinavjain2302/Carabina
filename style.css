@@ -1,0 +1,197 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{}
+ #container{
+	
+	 width:1200px;
+	 
+	 margin: 10 auto;
+	 
+	 
+ }
+    #header{
+		background:brown;
+		width:1200px;
+		height:100px;
+	}
+	  #header h2{
+		  color:white;
+		  text-align:center;
+	  }
+	#nav{
+		background:black;
+		width:1200px;
+		
+	}
+	  #nav li{
+		  color:white;
+		  float:left;
+		  padding:0 20px;
+          text-align:center;
+		  height:45px;
+		  width:200px;
+		  }
+		  #nav li:hover{
+			  color:red;
+			  background:white;
+		  }
+	#content{
+		background:teal;
+		width:1200px;
+		height:400px;
+	
+
+	}
+	 
+	  .left-side{
+		  
+		  background:teal;
+		  height:400px;
+		  width:900px;
+		  float: left;
+		   }
+	  
+	   .main-post{
+		  background:orange;
+		  width:400px;
+	     margin:10px 10px 10px 10px;	 
+		 float:left;
+	  }
+	  .left-side img{
+		  width:400px;
+		  font-size:23;
+		 
+          height:300px;		  
+		  background:grey;
+		   }
+	  .main-post-title{
+		   color:white;
+		   font-size:33px;
+		   text-align:center;
+		   text-decoration:underline black;
+	   }
+	   .sub-post{
+		   float:left;
+		   margin:10px 10px 10px 10px;
+		   padding:10px;
+		   height:100px;
+	   }
+	  
+	   .sub-post img{
+		   width:400px;
+		   height:300px;
+		   float:left;
+	   }
+	  .right-side{
+		
+		  background:teal;
+		  float:right;
+		  width:300px;
+		
+		 
+	  }
+	  .right-side marquee{
+		  
+	  }
+	    .right-side h2{
+			color:white;
+			height:42px;
+			text-align:center;
+			padding:10px 20px;
+			text-decoration:underline black;
+			border:1px solid black;
+	background-color:maroon;
+		}
+		.lst_updt{
+			color:tan;
+			height:42px;
+			padding:20px 10px;
+			background:black;
+			border:1px solid gray;
+			text-align:center;
+		}
+		.lst_updt:hover{
+			background:white;
+			color:red;
+		}
+		#footer{
+			background:brown;
+			color:white;
+			height:40;
+			text-align:center;
+		}
+		#header-iframe{
+			width:1200px;
+			border:0;
+		}
+		#img{
+			width:1050px;
+			height:500;
+			padding:90;
+			padding-left:200;
+			background:teal;
+		}
+		
+		.fiesta{
+			width:1000;
+			text-align:center;
+			margin:10px 10px 10px 10px;
+            padding:1px;
+			color:white;
+		}
+		#coldc{
+			height:400px;
+			padding-left:300px;
+		}
+		#cog{
+			height:400px;
+			padding-left:400px;
+		}
+		.fb{
+			color:maroon;
+		}
+		.fb:hover{
+			color:red;
+		}
+		.contact{
+			color:white;
+			
+		}
+	   #partner{
+		   width:100px;
+		   height:100px;
+		   padding:50px;
+		   padding-top:100px;
+		   
+	   }
+	    .us{
+		   width:150px;
+		   height:100px;
+		  
+		   
+		   
+	   }
+	      .us2{
+		   width:10px;
+		   height:10px;
+		   padding:5px;
+		   
+	   }
+	   #table1{
+		   padding:90px;
+		   }
+	   #table2{
+		   padding:50px;
+		   padding-left:100px;
+		  color:white;
+		   }
+		   #tr1{
+			   color:brown;
+			  font-size:22px;
+		   }
+		   #tr2{
+			   color:tan;
+			  font-size:15px;
+		   }

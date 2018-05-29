@@ -1,0 +1,74 @@
+
+
+<html>
+<head>
+<title>Carabina.com</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="container">
+ <iframe src="include/header.html" id="header-iframe"></iframe>
+
+ <div id="content">
+
+<form action="form-process.php" method="post" enctype="multipart/form-data">
+<table>
+<tr>
+ <td>Name:</td>
+ <td><input type="text" name="f_name" placeholder="Type your name"></td>
+ </tr>
+ 
+ <tr>
+ <td>Last Name:</td>
+ <td><input type="text" name="l_name" placeholder="type your last name"></td>
+ </tr>
+ <tr>
+ <td>Image:</td>
+ <td><input type="file" name="up_image"></td>
+ </tr>
+ <tr>
+ <td>Gender:</td>
+ <td>
+ <input type="Radio" name="gender" value="Male">:Male
+ <input type="Radio" name="gender" value="Female">:Female
+ </td>
+ </tr>
+
+ <tr>
+ <td>Your Skills:</td>
+ <td>
+ <input type="Checkbox" value="html">:Html<br>
+ <input type="Checkbox" value="php">:PHP<br>
+ <input type="Checkbox" value="css">:CSS<br>
+ </td>
+ </tr>
+ <tr>
+ <td>Select a country:</td>
+ <td>
+ <select name="country">
+   <option>Select a country</option>
+   <option value="america">america</option>
+   <option value="india" >india</option>
+   <option value="canada">canada</option>
+   <option value="south africa">south africa</option>
+ </select>
+ </td>
+ </tr>
+ <td>Comments</td>
+ <td><textarea rows="10" cols="40"></textarea></td>
+</tr>
+<tr>
+<td colspan="7" align="center"><input type="submit" value="click here" name="submit_button"></td>
+</tr>
+ 
+</form>
+
+</div>
+
+
+
+</div>
+</div>
+
+</body>
+</html>
